@@ -1,0 +1,66 @@
+/* Global Resets*/
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+}
+
+html,
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+  font-size: 100%;
+  font-family: "Roboto";
+  margin: 0;
+}
+
+:root {
+  --size-xxs: 14px;
+  --size-xs: 16px;
+  --size-s: 20px;
+  --size-m: 24px;
+  --size-l: 28px;
+  --size-xl: 32px;
+  --size-xxl: 48px;
+  --size-huge: 64px;
+
+  --bg-color-white: white;
+  --bg-color-black: #121010;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+/* Main */
