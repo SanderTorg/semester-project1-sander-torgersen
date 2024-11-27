@@ -8,7 +8,7 @@
       content="Get real authentic, hand-crafted guitars from Guitar Kings"
     />
     <title>CSM | Home</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/explore.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -24,59 +24,162 @@
   <body>
     <!--imp! HEADER -->
 
-    <header>
-      <nav class="nav">
-        <div class="logo-div">
-          <a role="logo" href="index.html" class="logo"
-            ><img src="/images/logo2.png" alt="logo" aria-label="logo"
-          /></a>
-        </div>
-        <input type="checkbox" id="check" />
-        <div class="nav-links">
-          <li role="home" aria-label="home">
-            <a href="index.html" class="nav-item">Home</a>
-          </li>
-          <li role="jackets" id="jacket-links" aria-label="jackets-links">
-            <a href="#" class="nav-item nav-item-link">Jackets</a>
-            <div class="jacket-categories-main">
-              <div class="jacket-categories-sub">
-                <ul>
-                  <li aria-label="men"><a href="/men.html">Men's</a></li>
-                  <li aria-label="women"><a href="/women.html">Women's</a></li>
-                  <li aria-label="kids"><a href="#">Kids</a></li>
-                </ul>
-              </div>
+    <header class="l-header">
+      <nav class="c-nav" id="hide-header">
+        <div class="c-nav-bar">
+          <div class="c-logo-container">
+            <a role="logo" href="index.html" class="c-logo"
+              ><img src="/images/logo2.png" alt="logo" aria-label="logo"
+            /></a>
+          </div>
+
+          <input type="checkbox" id="check" />
+
+          <div class="c-nav-links">
+            <li role="home" aria-label="home">
+              <a href="index.html" class="nav-item">Home</a>
+            </li>
+            <li role="explore" id="c-explore-links" aria-label="explore-links">
+              <a href="explore.html" class="c-nav-item">Explore</a>
+            </li>
+            <li role=" exhibition">
+              <a href="exhibiotion.html" class="nav-item">Exhibition</a>
+            </li>
+            <li role="events">
+              <a href="events.html" class="nav-item">Events</a>
+            </li>
+            <li role="visit">
+              <a href="visit.html" class="nav-item">Visit</a>
+            </li>
+            <label for="check" class="c-close-menu">
+              <i class="fa-solid fa-x"></i>
+            </label>
+          </div>
+
+          <div class="c-nav-icons">
+            <div class="c-search-box">
+              <a href="" aria-label="search for items">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </a>
+              <input type="search" placeholder="Search..." />
             </div>
-          </li>
-          <details class="jacket-links-mobile">
-            <summary class="jacket-summary">Jackets</summary>
-            <a href="/men.html" class="c-summary-btn"> Men's</a>
-            <a href="/women.html" class="c-summary-btn"> Women's</a>
-            <a href="/" class="c-summary-btn"> Kids</a>
-          </details>
-          <li role=" aboutus">
-            <a href="about.html" class="nav-item">About us</a>
-          </li>
-          <li role="contact">
-            <a href="contact.html" class="nav-item">Contact</a>
-          </li>
-          <label for="check" class="c-close-menu">
-            <i class="fa-solid fa-x"></i>
+          </div>
+
+          <label for="check" class="c-open-menu">
+            <i class="fa-solid fa-bars"></i>
           </label>
         </div>
-        <div class="nav-icons">
-          <div class="search-box">
-            <a href="" aria-label="search for items">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </a>
-            <input type="search" placeholder="Search..." />
-          </div>
-        </div>
-
-        <label for="check" class="c-open-menu">
-          <i class="fa-solid fa-bars"></i>
-        </label>
       </nav>
     </header>
+
+    <main class="l-main">
+      <section></section>
+    </main>
+
+    <footer class="l-footer">
+      <section class="c-summary">
+        <details class="c-details">
+          <summary class="c-footer-summary">
+            Explore <i class="fa-solid fa-angle-down"></i>
+          </summary>
+          <a href="explore.html" class="c-summary-btn"> Explore</a>
+          <a href="/" class="c-summary-btn"> Events</a>
+          <a href="/" class="c-summary-btn"> Exhibits</a>
+        </details>
+
+        <details class="c-details">
+          <summary class="c-footer-summary">
+            Company <i class="fa-solid fa-angle-down"></i>
+          </summary>
+          <a href="/" class="c-summary-btn"> About us</a>
+          <a href="/" class="c-summary-btn"> Contact</a>
+          <a href="/" class="c-summary-btn"> Terms & Conditions</a>
+          <a href="/" class="c-summary-btn"> Privacy Policy</a>
+        </details>
+
+        <details class="c-details">
+          <summary class="c-footer-summary">
+            Where to find us <i class="fa-solid fa-angle-down"></i>
+          </summary>
+          <a href="/" class="c-summary-btn"> Visit us</a>
+          <a href="/" class="c-summary-btn"> Location</a>
+          <a href="/" class="c-summary-btn"> Opening time</a>
+        </details>
+
+        <details class="c-details">
+          <summary class="c-footer-summary">
+            Get involved <i class="fa-solid fa-angle-down"></i>
+          </summary>
+          <a href="/" class="c-summary-btn"> Donate</a>
+          <a href="/" class="c-summary-btn"> Volunteer</a>
+          <a href="/" class="c-summary-btn"> Intership</a>
+        </details>
+
+        <div class="c-icon-container">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+
+        <div class="c-copyrights">
+          <p>&copy; 2024 CSM. All rights reserved.</p>
+        </div>
+      </section>
+
+      <section class="c-footer-d">
+        <div>
+          <div class="c-footer-cont-d">
+            <div class="c-footer-d-col">
+              <div class="c-footer-summary">Explore</div>
+              <div class="c-summary-btn">
+                <a href="">Explore</a>
+                <a href="">Exhibits</a>
+                <a href="">Events</a>
+              </div>
+            </div>
+
+            <div class="c-footer-d-col">
+              <div class="c-footer-summary">Company</div>
+              <div class="c-summary-btn">
+                <a href="/"> About us</a>
+                <a href="/"> Contact</a>
+                <a href="/"> Terms & Conditions</a>
+                <a href="/"> Privacy Policy</a>
+              </div>
+            </div>
+
+            <div class="c-footer-d-col">
+              <div class="c-footer-summary">Visit us</div>
+              <div class="c-summary-btn">
+                <a href="/"> Visit us</a>
+                <a href="/"> Location</a>
+                <a href="/"> Opening time</a>
+              </div>
+            </div>
+
+            <div class="c-footer-d-col">
+              <div class="c-footer-summary">Get involved</div>
+              <div class="c-summary-btn">
+                <a href="">Donate</a>
+                <a href="">Volunteer</a>
+                <a href="">Intership</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="c-icon-container">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+
+            <div class="c-copyrights">
+              <p>&copy; 2024 CSM. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script src="/script.js"></script>
   </body>
 </html>
