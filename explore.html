@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="widt-device-width, initial-scale-1.0" />
+    <meta
+      name="describtion"
+      content="Get real authentic, hand-crafted guitars from Guitar Kings"
+    />
+    <title>CSM | Home</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Roboto+Slab:wght@100..900&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <!--imp! HEADER -->
+
+    <header>
+      <nav class="nav">
+        <div class="logo-div">
+          <a role="logo" href="index.html" class="logo"
+            ><img src="/images/logo2.png" alt="logo" aria-label="logo"
+          /></a>
+        </div>
+        <input type="checkbox" id="check" />
+        <div class="nav-links">
+          <li role="home" aria-label="home">
+            <a href="index.html" class="nav-item">Home</a>
+          </li>
+          <li role="jackets" id="jacket-links" aria-label="jackets-links">
+            <a href="#" class="nav-item nav-item-link">Jackets</a>
+            <div class="jacket-categories-main">
+              <div class="jacket-categories-sub">
+                <ul>
+                  <li aria-label="men"><a href="/men.html">Men's</a></li>
+                  <li aria-label="women"><a href="/women.html">Women's</a></li>
+                  <li aria-label="kids"><a href="#">Kids</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <details class="jacket-links-mobile">
+            <summary class="jacket-summary">Jackets</summary>
+            <a href="/men.html" class="c-summary-btn"> Men's</a>
+            <a href="/women.html" class="c-summary-btn"> Women's</a>
+            <a href="/" class="c-summary-btn"> Kids</a>
+          </details>
+          <li role=" aboutus">
+            <a href="about.html" class="nav-item">About us</a>
+          </li>
+          <li role="contact">
+            <a href="contact.html" class="nav-item">Contact</a>
+          </li>
+          <label for="check" class="c-close-menu">
+            <i class="fa-solid fa-x"></i>
+          </label>
+        </div>
+        <div class="nav-icons">
+          <div class="search-box">
+            <a href="" aria-label="search for items">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+            <input type="search" placeholder="Search..." />
+          </div>
+        </div>
+
+        <label for="check" class="c-open-menu">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+      </nav>
+    </header>
+  </body>
+</html>
