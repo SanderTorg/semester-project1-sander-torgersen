@@ -251,6 +251,87 @@ img {
   margin-top: 80.2px;
 }
 
+.c-hero {
+  display: flex;
+  width: 100%;
+}
+
+.c-hero-text-container {
+  display: flex;
+  position: relative;
+}
+
+.img-overlay {
+  background-color: #000;
+  width: 100%;
+}
+
+.img-overlay img {
+  opacity: 70%;
+  height: 100%;
+}
+
+.c-hero-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.c-h1 {
+  font-size: var(--size-l);
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.c-under-text {
+  font-size: var(--size-s);
+}
+
+.c-padding {
+  padding-bottom: 1rem;
+}
+
+/* section 2 */
+
+.c-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 30px 0rem 30px;
+}
+
+.c-h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--size-s);
+  font-family: Cinzel;
+  font-weight: bold;
+  color: var(--color-blue);
+  padding-bottom: 1rem;
+}
+
+.c-kids {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 30px 2rem 30px;
+}
+
+.c-kids-cont {
+  display: flex;
+  box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.77);
+}
+
+.c-kids-text {
+  padding: 0.5rem 0.25rem 0.5rem 0.25rem;
+}
+
 /* FOOTER */
 
 .l-footer {
@@ -375,6 +456,29 @@ img {
     padding: 0.75rem 1.75rem;
   }
 
+  .c-btn-exhibits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .c-btn-exhibits a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    background-color: orangered;
+    border-radius: 10px;
+    font-size: var(--size-s);
+    padding: 0.5rem 1.5rem;
+  }
+
+  .c-btn-exhibits a:hover {
+    background-color: var(--btn-color-hover);
+  }
+
   input#submit {
     font-size: var(--size-s);
     padding: 1rem 2rem;
@@ -399,6 +503,10 @@ img {
   }
 
   .c-btn-explore {
+    font-size: var(--size-m);
+    padding: 0.75rem 1.75rem;
+  }
+  .c-btn-exhibits a {
     font-size: var(--size-m);
     padding: 0.75rem 1.75rem;
   }
