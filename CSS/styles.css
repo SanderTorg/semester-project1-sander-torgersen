@@ -46,6 +46,8 @@ body {
   --bg-nav-foot: linear-gradient(#0c4c71, #167fbb);
   --bg-color-white: white;
   --bg-color-black: #050505;
+
+  --padding-section: 0rem 30px 2rem 30px;
 }
 
 ul {
@@ -301,12 +303,6 @@ img {
   color: white;
 }
 
-.c-h1 {
-  font-size: var(--size-l);
-  padding-bottom: 0.5rem;
-  font-weight: bold;
-}
-
 .c-under-text {
   font-size: var(--size-s);
 }
@@ -344,21 +340,6 @@ img {
   }
 }
 
-@media only screen and (width>1000px) {
-  .c-h1 {
-    font-size: var(--size-xxl);
-  }
-
-  .c-under-text {
-    font-size: var(--size-l);
-  }
-
-  .c-btn-explore {
-    font-size: var(--size-l);
-    padding: 1rem 2rem;
-  }
-}
-
 /* section 2 */
 
 .c-about {
@@ -380,11 +361,6 @@ img {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-size: var(--size-s);
-  font-family: Cinzel;
-  font-weight: bold;
-  color: var(--color-blue);
-  padding-bottom: 1rem;
 }
 
 .c-line-cont {
@@ -440,10 +416,6 @@ img {
 
   .c-col-2 {
     display: flex;
-  }
-
-  .c-h2 {
-    font-size: var(--size-m);
   }
 }
 
@@ -779,10 +751,16 @@ input#submit:hover {
 @media only screen and (width>0px) {
   .c-h1 {
     font-size: var(--size-l);
+    padding-bottom: 0.5rem;
+    font-weight: bold;
   }
 
   .c-h2 {
     font-size: var(--size-s);
+    font-family: Cinzel;
+    font-weight: bold;
+    color: var(--color-blue);
+    padding-bottom: 1rem;
   }
 
   .c-h3 {
@@ -809,6 +787,29 @@ input#submit:hover {
     padding: 0.75rem 1.75rem;
   }
 
+  .c-btn-exhibits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .c-btn-exhibits a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    background-color: orangered;
+    border-radius: 10px;
+    font-size: var(--size-s);
+    padding: 0.5rem 1.5rem;
+  }
+
+  .c-btn-exhibits a:hover {
+    background-color: var(--btn-color-hover);
+  }
+
   input#submit {
     font-size: var(--size-s);
     padding: 1rem 2rem;
@@ -833,6 +834,10 @@ input#submit:hover {
   }
 
   .c-btn-explore {
+    font-size: var(--size-m);
+    padding: 0.75rem 1.75rem;
+  }
+  .c-btn-exhibits a {
     font-size: var(--size-m);
     padding: 0.75rem 1.75rem;
   }
