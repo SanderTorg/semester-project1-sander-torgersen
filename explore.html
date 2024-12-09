@@ -7,7 +7,7 @@
       name="describtion"
       content="Get real authentic, hand-crafted guitars from Guitar Kings"
     />
-    <title>CSM | Home</title>
+    <title>CSM | Explore</title>
     <link rel="stylesheet" href="css/explore.css" />
     <link
       rel="stylesheet"
@@ -28,7 +28,11 @@
       <nav class="c-nav" id="hide-header">
         <div class="c-nav-bar">
           <div class="c-logo-container">
-            <a role="logo" href="index.html" class="c-logo"
+            <a
+              role="logo"
+              href="index.html"
+              class="c-logo"
+              aria-label="link to home page"
               ><img src="/images/logo2.png" alt="logo" aria-label="logo"
             /></a>
           </div>
@@ -37,22 +41,52 @@
 
           <div class="c-nav-links">
             <li role="home" aria-label="home">
-              <a href="index.html" class="c-nav-item">Home</a>
+              <a
+                href="index.html"
+                class="c-nav-item"
+                aria-label="link to home page"
+                >Home</a
+              >
             </li>
             <li role="explore" id="c-explore-links" aria-label="explore-links">
-              <a href="explore.html" class="c-nav-item">Explore</a>
+              <a
+                href="explore.html"
+                class="c-nav-item"
+                aria-label="link to explore page"
+                >Explore</a
+              >
             </li>
             <li role=" exhibition">
-              <a href="exhibition.html" class="c-nav-item">Exhibition</a>
+              <a
+                href="exhibition.html"
+                class="c-nav-item"
+                aria-label="link to exhibition page"
+                >Exhibition</a
+              >
             </li>
             <li role="involved">
-              <a href="involved.html" class="c-nav-item">Get involved</a>
+              <a
+                href="involved.html"
+                class="c-nav-item"
+                aria-label="link to involved page"
+                >Get involved</a
+              >
             </li>
             <li role="visit">
-              <a href="visit.html" class="c-nav-item">Visit</a>
+              <a
+                href="visit.html"
+                class="c-nav-item"
+                aria-label="link to visit page"
+                >Visit</a
+              >
             </li>
             <li role="contact">
-              <a href="contact.html" class="c-nav-item">Contact</a>
+              <a
+                href="contact.html"
+                class="c-nav-item"
+                aria-label="link to contact page"
+                >Contact</a
+              >
             </li>
             <label for="check" class="c-close-menu">
               <i class="fa-solid fa-x"></i>
@@ -61,10 +95,10 @@
 
           <div class="c-nav-icons">
             <div class="c-search-box">
-              <a href="" aria-label="search for items">
+              <a href="index.html" aria-label="search for items">
                 <i class="fa-solid fa-magnifying-glass"></i>
               </a>
-              <input type="search" placeholder="Search..." />
+              <input type="search" placeholder="Search..." id="search" />
             </div>
           </div>
 
@@ -124,7 +158,9 @@
             </div>
 
             <div class="c-btn-exhibits">
-              <a href="explore.html">Read More</a>
+              <a href="explore.html" aria-label="link to exhibition"
+                >Read More</a
+              >
             </div>
           </div>
 
@@ -140,7 +176,7 @@
           <div class="c-img-teacher">
             <img
               src="/Images/childrens-museum-educator.jpg"
-              alt="kid wearing vr headset while painting"
+              alt="guided tour"
             />
           </div>
           <div class="c-text-cont">
@@ -159,7 +195,9 @@
             </div>
 
             <div class="c-btn-exhibits">
-              <a href="explore.html">Read More</a>
+              <a href="exhibition.html" aria-label="link to exhibition"
+                >Read More</a
+              >
             </div>
           </div>
         </div>
@@ -179,15 +217,14 @@
             </div>
 
             <div class="c-btn-exhibits">
-              <a href="explore.html">Read More</a>
+              <a href="exhibition.html" aria-label="link to exhibition"
+                >Read More</a
+              >
             </div>
           </div>
 
           <div class="c-img-reseacher">
-            <img
-              src="/Images/science.avif"
-              alt="kid wearing vr headset while painting"
-            />
+            <img src="/Images/science.avif" alt="researcher doing science" />
           </div>
         </div>
       </section>
@@ -199,37 +236,111 @@
           <summary class="c-footer-summary">
             Explore <i class="fa-solid fa-angle-down"></i>
           </summary>
-          <a href="explore.html" class="c-summary-btn"> Explore</a>
-          <a href="/" class="c-summary-btn"> Events</a>
-          <a href="/" class="c-summary-btn"> Exhibits</a>
+          <a
+            href="explore.html"
+            class="c-summary-btn"
+            aria-label="link to explore page"
+          >
+            Explore</a
+          >
+          <a href="#news" class="c-summary-btn" aria-label="link to events">
+            Events</a
+          >
+          <a
+            href="exhibition.html"
+            class="c-summary-btn"
+            aria-label="link to exhibition page"
+          >
+            Exhibits</a
+          >
         </details>
 
         <details class="c-details">
           <summary class="c-footer-summary">
             Company <i class="fa-solid fa-angle-down"></i>
           </summary>
-          <a href="/" class="c-summary-btn"> About us</a>
-          <a href="/" class="c-summary-btn"> Contact</a>
-          <a href="/" class="c-summary-btn"> Terms & Conditions</a>
-          <a href="/" class="c-summary-btn"> Privacy Policy</a>
+          <a
+            href="contact.html"
+            class="c-summary-btn"
+            aria-label="link to contact page"
+          >
+            About us</a
+          >
+          <a
+            href="contact.html"
+            class="c-summary-btn"
+            aria-label="link to contact page"
+          >
+            Contact</a
+          >
+          <a
+            href="contact.html"
+            class="c-summary-btn"
+            aria-label="link to contact page"
+          >
+            Terms & Conditions</a
+          >
+          <a
+            href="contact.html"
+            class="c-summary-btn"
+            aria-label="link to contact page"
+          >
+            Privacy Policy</a
+          >
         </details>
 
         <details class="c-details">
           <summary class="c-footer-summary">
             Where to find us <i class="fa-solid fa-angle-down"></i>
           </summary>
-          <a href="/" class="c-summary-btn"> Visit us</a>
-          <a href="/" class="c-summary-btn"> Location</a>
-          <a href="/" class="c-summary-btn"> Opening time</a>
+          <a
+            href="visit.html"
+            class="c-summary-btn"
+            aria-label="link to visit page"
+          >
+            Visit us</a
+          >
+          <a
+            href="visit.html"
+            class="c-summary-btn"
+            aria-label="link to visit page"
+          >
+            Location</a
+          >
+          <a
+            href="visit.html"
+            class="c-summary-btn"
+            aria-label="link to visit page"
+          >
+            Opening time</a
+          >
         </details>
 
         <details class="c-details">
           <summary class="c-footer-summary">
             Get involved <i class="fa-solid fa-angle-down"></i>
           </summary>
-          <a href="/" class="c-summary-btn"> Donate</a>
-          <a href="/" class="c-summary-btn"> Volunteer</a>
-          <a href="/" class="c-summary-btn"> Intership</a>
+          <a
+            href="involved.html"
+            class="c-summary-btn"
+            aria-label="link to involved page"
+          >
+            Donate</a
+          >
+          <a
+            href="involved.html"
+            class="c-summary-btn"
+            aria-label="link to involved page"
+          >
+            Volunteer</a
+          >
+          <a
+            href="involved.html"
+            class="c-summary-btn"
+            aria-label="link to involved page"
+          >
+            Intership</a
+          >
         </details>
 
         <div class="c-icon-container">
@@ -249,37 +360,63 @@
             <div class="c-footer-d-col">
               <div class="c-footer-summary">Explore</div>
               <div class="c-summary-btn">
-                <a href="">Explore</a>
-                <a href="">Exhibits</a>
-                <a href="">Events</a>
+                <a href="explore.html" aria-label="link to explore page"
+                  >Explore</a
+                >
+                <a href="exhibition.html" aria-label="link to exhibition page"
+                  >Exhibits</a
+                >
+                <a href="#news" aria-label="link to news section in home page"
+                  >Events</a
+                >
               </div>
             </div>
 
             <div class="c-footer-d-col">
               <div class="c-footer-summary">Company</div>
               <div class="c-summary-btn">
-                <a href="/"> About us</a>
-                <a href="/"> Contact</a>
-                <a href="/"> Terms & Conditions</a>
-                <a href="/"> Privacy Policy</a>
+                <a href="contact.html" aria-label="link to contact page">
+                  About us</a
+                >
+                <a href="contact.html" aria-label="link to contact page">
+                  Contact</a
+                >
+                <a href="contact.html" aria-label="link to contact page">
+                  Terms & Conditions</a
+                >
+                <a href="contact.html" aria-label="link to contact page">
+                  Privacy Policy</a
+                >
               </div>
             </div>
 
             <div class="c-footer-d-col">
               <div class="c-footer-summary">Visit us</div>
               <div class="c-summary-btn">
-                <a href="/"> Visit us</a>
-                <a href="/"> Location</a>
-                <a href="/"> Opening time</a>
+                <a href="visit.html" aria-label="link to visit page">
+                  Visit us</a
+                >
+                <a href="visit.html" aria-label="link to visit page">
+                  Location</a
+                >
+                <a href="visit.html" aria-label="link to visit page">
+                  Opening time</a
+                >
               </div>
             </div>
 
             <div class="c-footer-d-col">
               <div class="c-footer-summary">Get involved</div>
               <div class="c-summary-btn">
-                <a href="">Donate</a>
-                <a href="">Volunteer</a>
-                <a href="">Intership</a>
+                <a href="involved.html" aria-label="link to involved page"
+                  >Donate</a
+                >
+                <a href="involved.html" aria-label="link to involved page"
+                  >Volunteer</a
+                >
+                <a href="involved.html" aria-label="link to involved page"
+                  >Intership</a
+                >
               </div>
             </div>
           </div>

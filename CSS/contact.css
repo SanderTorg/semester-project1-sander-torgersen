@@ -8,6 +8,7 @@
 
 html {
   font-size: 1rem;
+  scroll-behavior: smooth;
 }
 
 html,
@@ -426,7 +427,21 @@ img {
   max-width: 500px;
 }
 
-input#input {
+input#name {
+  position: absolute;
+  width: 100%;
+  outline: none;
+  height: 45px;
+  font-size: 1.5em;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid black;
+  font-size: var(--size-s);
+  letter-spacing: 1px;
+  padding-left: 0.5rem;
+}
+
+input#email {
   position: absolute;
   width: 100%;
   outline: none;
