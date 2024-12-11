@@ -77,6 +77,21 @@ img {
   width: 100%;
 }
 
+::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(0, 0%, 72%);
+  border-radius: 100vh;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(0, 0%, 33%);
+  border-radius: 100vh;
+}
+
 /*imp! HEADER */
 
 .c-nav {
