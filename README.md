@@ -9,7 +9,7 @@ This bootstrap template is intended to help you deliever a amazing website which
 
 <!-- You must replace these links -->
 
-- [Brief](https://teams.microsoft.com/l/message/19:9d9175e2-aca2-42e6-992d-cf60dd050cbc_cff2e4dc-7e27-4114-9dd4-eb885b5024e7@unq.gbl.spaces/1734010924282?context=%7B%22contextType%22%3A%22chat%22%7D)
+- [Brief](https://lms.noroff.no/pluginfile.php/339034/mod_resource/content/5/HTML__CSS_CA.pdf)
 - [Design-desktop](https://www.figma.com/proto/9XU0tHvDfPV0Dbdp7dWofJ/Semester-project-1?page-id=1%3A3&node-id=39-72&node-type=frame&viewport=1436%2C1000%2C0.25&t=II9VpnXsScCkjYPX-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=39%3A72)
 - [Design-mobile](https://www.figma.com/proto/9XU0tHvDfPV0Dbdp7dWofJ/Semester-project-1?page-id=0%3A1&node-id=1-7&node-type=canvas&viewport=-3583%2C4689%2C0.24&t=SZcOyBq57xSPhPuj-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A7)
 - [Production deploy](https://santorg-sciencemuseum.netlify.app/)
