@@ -488,6 +488,7 @@ input#email {
   justify-content: center;
   width: 100%;
   text-decoration: none;
+  padding-top: 7rem;
 }
 
 input#submit {
@@ -519,7 +520,7 @@ textarea#message {
   position: absolute;
   width: 100%;
   outline: none;
-  height: 45px;
+  height: 150px;
   font-size: 1.5em;
   border-radius: 10px;
   background: transparent;
